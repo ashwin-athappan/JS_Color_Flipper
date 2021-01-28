@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 body {
     background: #454545;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container{
@@ -18,25 +19,27 @@ body {
     align-items: center;
 }
 
-h4.word{
-    border: solid black;
+h4{
+    border: solid white;
     font-size: 72px;
+    padding: 0px 20px;
+}
+
+h4.word{
+
     padding: 0px 20px;
     border-radius: 20px 0px 0px 20px;
     border-width: 5px 0px 5px 5px;
 }
 
-h4{
-    background: white;
-}
-
 h4.color{
-    border: solid black;
-    font-size: 72px;
-    padding: 0px 20px;
-    color: #454545;
+    color: black;
     border-radius: 0px 20px 20px 0px;
     border-width: 5px 5px 5px 0px;
+}
+
+h4.color:hover{
+    cursor: pointer;
 }
 
 .btn{
@@ -47,6 +50,7 @@ h4.color{
 button{
     font-family: 'Yusei Magic', sans-serif;
     font-weight: 900;
+    font-size: 25px;
     background: transparent;
     padding: 15px 32px;
     text-decoration: none;
@@ -61,4 +65,17 @@ button:hover{
     cursor: pointer;
     color: black;
     background-color: #e7e7e7;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1.top {
+    top: 50px;
+}
+
+h1.bottom {
+   bottom: 150px;
 }
